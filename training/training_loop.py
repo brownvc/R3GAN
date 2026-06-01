@@ -328,7 +328,7 @@ def training_loop(
             # Update weights.  
             for g in phase.opt.param_groups:
                 g['lr'] = cur_lr
-                g['betas'] = (0, cur_beta2)
+                g['betas'] = (0.0, cur_beta2)
                       
             with torch.autograd.profiler.record_function(phase.name + '_opt'):
                 params = [param for param in phase.module.parameters() if param.grad is not None]
