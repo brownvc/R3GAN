@@ -73,6 +73,12 @@ We support the following metrics:
 
 Refer to the StyleGAN3 code base for more details.
 
+## License
+
+The code in [`R3GAN/`](./R3GAN) is released under the [MIT license](./R3GAN/LICENSE). The rest of the code derives from NVIDIA's [StyleGAN3](https://github.com/NVlabs/stylegan3) and is released under the [NVIDIA Source Code License](./LICENSE.txt).
+
+The pre-trained models are released under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) (FFHQ) and [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) (CIFAR-10, ImageNet).
+
 ## Citation
 
 ```
